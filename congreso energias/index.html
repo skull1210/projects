@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--script para facebook-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v16.0" nonce="Aajs0dYA"></script>
+
+
+    <!--navbar-->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de la marca"></a>
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="resources/conferencias.pdf" target="_blank">Conferencias</a ></li>
+                <li><a href="#topcar">mas informacion</a></li>
+                <li><a href="#bottomcar">Ponentes</a></li>
+        
+           </ul>            
+        </nav>
+        <a class="btn" href="https://www.utpuebla.edu.mx" target="_blank"><button>Registrate</button></a>
+    </header>
+    <!--carrusel principal-->
+    <div class="carrousel" id="topcar">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta">
+                   <img src="img/cartel1.jpeg" alt="item-1">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-41">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta">
+                     <img src="img/cartel2.jpeg" alt="item-2">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta">
+                    <img src="/img/cartel4.jpeg" alt="item-3">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-41">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-41">
+                <div class="itemCarrouselTarjeta">
+                    <a href="resources/cartel3.pdf" target="_blank"><img src="/img/cartel3.jpeg" alt="item-41"></a> 
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-3">•</a>
+        </div>
+
+
+
+        
+        
+
+    <!--cuerpo texto-->
+    <div class="container-all">
+       
+        <!--carrusel ponentes-->
+        <div class="carrousel" id="bottomcar">
+            <div class="conteCarrousel" id="bottomconten">
+                <div class="itemCarrousel" id="itemCarrousel-4">
+                    <div class="itemCarrouselTarjeta">
+                        <a><img src="img/jorge1.jpeg" alt="item-4"></a>
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-8">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-5">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-5">
+                    <div class="itemCarrouselTarjeta">
+                         <a><img src="img/margarita2.jpeg" alt="item-5"></a> 
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-6">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-6">
+                    <div class="itemCarrouselTarjeta">
+                       <a><img src="img/jose3.jpeg" alt="item-6"></a> 
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-5">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-7">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-7">
+                    <div class="itemCarrouselTarjeta">
+                       <a><img src="img/hugo4.jpeg" alt="item-7"></a> 
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-6">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-8">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-8">
+                    <div class="itemCarrouselTarjeta">
+                       <a><img src="/img/marcelo5.jpeg" alt="item-8"></a> 
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-7">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-4">•</a>
+                <a href="#itemCarrousel-5">•</a>
+                <a href="#itemCarrousel-6">•</a>
+                <a href="#itemCarrousel-7">•</a>
+                <a href="#itemCarrousel-8">•</a>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laboriosam ipsa, ipsum nisi temporibus labore incidunt. Possimus obcaecati quaerat nemo placeat, debitis eligendi culpa accusamus tenetur perspiciatis dignissimos repellat minima quisquam asperiores mollitia aut, itaque beatae soluta sit eius consequuntur eveniet voluptas esse suscipit? Saepe quidem maxime dolorum obcaecati impedit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus ullam laboriosam iste, itaque magni, voluptatum at velit minus aliquam optio obcaecati ab a, beatae facilis eaque quasi! Aliquid quam minus, illum, voluptas fuga asperiores et repudiandae voluptate laborum, molestiae aliquam maxime? Aliquid alias quam unde dolore labore animi id at sint incidunt, voluptates commodi quis officiis, accusamus odit debitis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sunt vitae ut eveniet odio incidunt, iste, delectus consequatur mollitia doloribus voluptatibus dolores qui, nobis. Praesentium, natus aut quod quibusdam odio!</p>
+        
+    </div>
+    <!--mapa-->
+
+    <div id="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4484.665101975184!2d-98.1552556687232!3d19.0576337068393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc1cb1d96b395%3A0x288aef23aeefaa6c!2sAntiguo%20Camino%20a%20La%20Resurrecci%C3%B3n%201002%20-%20A%2C%20Zona%20Industrial%2C%2072300%20Puebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1679532082412!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--ventana de facebook-->
+    <div class="fb-page" data-href="https://www.facebook.com/OficialUTP" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/OficialUTP" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/OficialUTP">Universidad Tecnológica de Puebla UTP</a></blockquote>
+    </div>
+
+    <!--footer-->
+
+    <footer>
+        <div class="logos">
+            <a href="index.html"><img src="img/oscuro.png" alt=""></a>
+        </div>
+        <div class="social-icons-container">
+            <a href="https://www.facebook.com/OficialUTP" target="_blank" class="social-icon" ></a>
+            <a href="https://www.instagram.com/utpueblaoficial/" class="social-icon" target="_blank"></a>
+            <a href="https://twitter.com/OficialUTP" class="social-icon" target="_blank"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item"><a href="https://www.utpuebla.edu.mx" target="_blank" class="footer-link">Registro</a></li> 
+            <li class="menu-item"><a href="resources/conferencias.pdf" target="_blank" class="footer-link">Horario de conferencias</a></li>
+            <li class="menu-item"><a href="#topcar" 
+             class="footer-link">Material extra</a></li>
+            <li class="menu-item"><a href="#bottomcar" class="footer-link">Ponentes</a></li>
+        </ul>
+        <span class="copyright">&copy;2023, Skull. All rights reserved.</span>
+    </footer>
+    
+</body>
+</html>
