@@ -13,14 +13,74 @@ f<!DOCTYPE html>
     <table>
         <tr>
           <td>Estado</td>o
-          <td><form id="form1" name="form1" method="post" action=""><select id="estado" name="Estado">
-              <scriptd type="text/javascriptd">
-                var x=0;
-                for(x=0;x<3;x++){
-                  document.write(<option> + x +</option>);
-                }
+          <td><form id="form1" name="form1" method="post" action=""><select id="estado" name="Estado">;
 
-              </scriptd>
+                <option></option>
+
+                <option>Aguascalientes</option>
+
+                <option>Baja California</option>
+
+                <option>Baja California Sur</option>
+
+                <option>Campeche</option>
+
+                <option>Coahuila</option>
+
+                <option>Colima</option>
+
+                <option>Chiapas</option>
+
+                <option>Chihuahua</option>
+
+                <option>Ciudad de Mexico</option>
+
+                <option>Durango</option>
+
+                <option>Estado de Mexico</option>
+
+                <option>Guanajuato</option>
+
+                <option>Guerrero</option>
+
+                <option>Hidalgo</option>
+
+                <option>Jalisco</option>
+
+                <option>Michoacan</option>
+
+                <option>Morelos</option>
+
+                <option>Nayarit</option>
+
+                <option>Nuevo Leon</option>
+
+                <option>Oaxaca</option>
+
+                <option>Puebla</option>
+
+                <option>Queretaro</option>
+
+                <option>Quintana Roo</option>
+
+                <option>San Luis Potosi</option>
+
+                <option>Sinaloa</option>
+
+                <option>Sonora</option>
+
+                <option>Tabasco</option>
+
+                <option>Tamaulipas</option>
+
+                <option>Tlaxcala</option>
+
+                <option>Veracruz</option>
+
+                <option>Yucatan</option>
+
+                <option>Zacatecas</option>
+              
           </select></form></td>
         </tr>
         <tr>
@@ -58,11 +118,11 @@ f<!DOCTYPE html>
       <table>
         <tr>
           <td>Latitud</td>
-          <td></td>
+          <td id="latitud" type="number"></td>
         </tr>
         <tr>
           <td>Longitud</td>
-          <td></td>
+          <td id="longitud" type="number"></td>
         </tr>
         <tr>
           <td>Temperatura minima promedio</td>
@@ -80,6 +140,17 @@ f<!DOCTYPE html>
           <td>Temperatura de uso</td>
           <td><input id="tempus" type="number"></td>
         </tr>
+        <!--Implementacion para tomar en cuenta la forma del colector-->
+          <tr>
+            <td>Numero de lados del colector</td>
+            <td><form id="form2" name="form2" method="post" action=""><select id="forma" name="Forma">
+            <option></option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+            </select></form></td>
+          </tr>
+        
         <tr>
           <td>Largo del colector</td>
           <td><input id="larcol" type="number"></td>
@@ -87,6 +158,22 @@ f<!DOCTYPE html>
         <tr>
           <td>Ancho del colector</td>
           <td><input id="ancol" type="number"></td>
+        </tr>
+        <tr>
+          <td>No. de lados del colector, solo de 5 y +</td>
+          <td><input id="nolads" type="number"></td>
+        </tr>
+        <tr>
+          <td>apotema del recolector, solo colectores de 5 y + lados </td>
+          <td><input id="hapcol" type="number"></td>
+        </tr>
+        <tr>
+          <td>tamaño de un lado, solo colectores con 5 o + lados</td>
+          <td><input id="ladcol" type="number"></td>
+        </tr>
+        <tr>
+          <td>area del colector</td>
+          <td type="number"><button id="calcular">calcular</button><div id=area></div></td>
         </tr>
         <tr>
           <td>Distancia entre colectores</td>
